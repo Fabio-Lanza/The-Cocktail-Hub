@@ -23,6 +23,9 @@
   box-shadow: var(--lightShadow);
 }
 
+.form-control{
+  display: flex;
+}
 .form-control label {
   display: block;
   margin-bottom: 1.25rem;
@@ -32,11 +35,26 @@
 }
 
 .form-control input {
-  width: 100%;
+  width: 90%;
   border: none;
   border-color: transparent;
   background: var(--mainBackground);
   border-radius: var(--mainBorderRadius);
   padding: 0.5rem;
   font-size: 1.2rem;
+}
+
+.form-control button{
+  font-size: 1.5rem;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Media query ---- */
+@media screen and (max-width: 450px){
+  .form-control input::placeholder{
+    font-size: small;
+  }
+
 }

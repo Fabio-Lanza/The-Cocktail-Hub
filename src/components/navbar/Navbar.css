@@ -45,3 +45,19 @@
 .logo {
   width: 12rem;
 }
+
+/* Media query ---- */
+@media screen and (max-width: 450px){
+  .nav-center .icon h3 {
+    font-size: 0.8rem; 
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+  }
+
+  .nav-center {
+    margin-top: 0.5rem;
+  }
+  
+}

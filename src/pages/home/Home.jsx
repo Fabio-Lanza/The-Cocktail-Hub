@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import DrinkCard from "../../components/grid/DrinkCard";
 import { FaSearch } from "react-icons/fa";
 
+
 const url =
   "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita";
 

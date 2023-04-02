@@ -2,7 +2,8 @@ import "../navbar/Navbar.css";
 import { Link } from "react-router-dom";
 import { FaCocktail } from "react-icons/fa";
 
-function Navbar() {
+function Navbar() { 
+
   return (
     <nav className="navbar">
       <div className="nav-center">
@@ -18,6 +19,8 @@ function Navbar() {
             <Link to="/about">About</Link>
           </li>
         </ul>
+
+          
       </div>
     </nav>
   );

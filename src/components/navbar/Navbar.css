@@ -46,10 +46,15 @@
   width: 12rem;
 }
 
+/* Mobile=== */
+.menu{
+  display: none;
+}
+
 /* Media query ---- */
 @media screen and (max-width: 450px){
   .nav-center .icon h3 {
-    font-size: 0.8rem; 
+    font-size: 0.7rem; 
   }
 
   .nav-links a {

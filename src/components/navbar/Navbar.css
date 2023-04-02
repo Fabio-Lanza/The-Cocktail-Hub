@@ -55,6 +55,7 @@
 @media screen and (max-width: 450px){
   .nav-center .icon h3 {
     font-size: 0.7rem; 
+    width: 50px;
   }
 
   .nav-links a {

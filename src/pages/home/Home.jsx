@@ -45,7 +45,7 @@ function Home() {
           <div className="form-control">           
             <input
               type="text"
-              placeholder="Search for your favorite cocktail or liquor..."
+              placeholder="Search for your favorite cocktail ..."
               onChange={handleChange}
               value={searchvalue}
               />

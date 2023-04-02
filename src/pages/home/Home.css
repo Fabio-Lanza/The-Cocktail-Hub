@@ -42,6 +42,7 @@
   border-radius: var(--mainBorderRadius);
   padding: 0.5rem;
   font-size: 1.2rem;
+  outline: none;
 }
 
 .form-control button{
@@ -49,6 +50,7 @@
   border: none;
   padding: 5px;
   cursor: pointer;
+  color: #000;
 }
 
 /* Media query ---- */
